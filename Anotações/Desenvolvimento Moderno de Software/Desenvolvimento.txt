@@ -1,0 +1,33 @@
+# Desenvolvimento Moderno de Software
+## Professor Denilson Bonatti
+
+### Regra
+Ao iniciar o desenvolvimento de um softare, o primeiro passo é definir as plataformas onde este softare será executado.
+
+### Sistema Desktop
+### Sistema Web
+
+### Profissionais
+#### UX Designer (User Experience)
+Comportamento: pesquisa, protótipos, personas e objetivos.
+
+#### UI Designer (User Interface)
+Aparência: design, tipografia, cores e layouts.
+
+#### Front End
+Desenvolve tudo o que é visível para o usuário.
+
+#### Back End
+Desenvolve as operações que o usuário executa. 
+
+#### Full Stack
+Desenvolvedor Front End e Back End.
+
+#### QA (Quality Assurance)
+Responsável pela qualidade do programa desenvolcido.
+
+### Vantagens de Migração para a Nuvem Pública
+- Preço.
+- Facilidade de contratação, configuração e infraestrutura.
+- Escalabilidade.
+- Performance.

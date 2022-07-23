@@ -1,0 +1,33 @@
+# Pensamento Computacional
+## Professora Juliana Mascarenhas
+
+### Pilares
+- Decomposição
+- Reconhecimento
+- Abstração
+- Design de Algoritmos
+
+### Processo Contínuo
+Definir uma solução -> Testar a solução -> Aperfeiçoar a solução
+
+### Raciocínio Lógico
+- Indução
+- Dedução
+- Abdução
+
+### Inferência
+- Sintética (Abdução e Indução)
+- Analítica (Dedução)
+
+### Construção de Algorítmos
+- Narrativa (linguagem natural)
+- Fluxograma (símbolos pré-definidos)
+- Pseudocódigo (portugol)
+
+### Técnicas
+- Linear
+- Estruturada
+- Modular
+
+
+
