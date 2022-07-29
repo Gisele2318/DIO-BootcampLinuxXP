@@ -1,0 +1,51 @@
+>>ip a -> verificar o ip da vm
+>>pwd -> mostra o caminho do diretório atual
+>>cd / -> muda para o diretório raiz
+>>ls -> lista os arquivos
+>>find -name <nomedoarquivo> -> procura o arquivo
+>><comando> --help -> ajuda sobre o comando
+>>cat /etc/group -> mostra todos os grupos
+>>cat /etc/passwd -> mostra todos os usuários
+>>touch <nomedoarquivo> -> cria o arquivo
+>>sudo passwd -> cria senha para o root
+>>su -> para logar como root ou com qualquer outro usuário
+
+Liberando acesso remoto do usuário root
+>>vi /etc/ssh/sshd_config
+Como era:
+#PermitRootLogin proibt-password
+Como fica:
+PermitRootLogin yes
+
+Criando e Excluindo Usuários
+>>useradd Gisele -m -c "dos Santos" -s /bin/bash -e dd/mm/aaaa -p $(openssl passwd -crypt Senha123)
+*-m Cria a pasta home do usuário
+*-c Sobrenome ou comentário sobre o usuário
+*-s altera o shell padrão
+*-e obriga o usuário a mudar a senha na data estipulada
+*-p criptografa a senha do usuário
+>>userdel -f -r Gisele
+
+-g -> para adicionar o usuário em um grupo
+-G -> para adicionar o usuário em mais de um grupo
+
+>>usermod -G <grupo1,grupo2> <nomedousuario>
+>>groupadd <gruponovo>
+>>groupdel <grupoqueseradeletado>
+gpasswd -d <usuarioqueseraremovidogrupo> <grupo>
+
+Permissões
+Atribuir um usuário como dono do grupo
+>>chow <usuario>:<grupo> /<diretorio>/
+Atribuir permissões
+chmod 777 <arquivoouduretorio>
+
+Gerenciamento de Pacotes
+apt list --installed -> lista o que está instalado
+apt list --upgradeable -> lista o que pode ser atualizado
+
+Atualização do SO
+apt update
+apt upgrade
+
+

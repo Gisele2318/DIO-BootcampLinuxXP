@@ -1,0 +1,19 @@
+O que é o Linux
+-É um Sistem Operacional
+-Mais utilizado no segmento de Servidores e Desenvolvimento de Software
+-Começou a ser desenvolvido por Linus Torvalds em 1991.
+-É gratuito, e pode ser usado por qualquer pessoa, sem restrições.
+
+https://youtu.be/eJuvKn5j_kE
+
+https://www.linuxfoundation.org/
+ Tux é o mascote do Linux
+
+Distribuições
+- Debian (Usuário final)
+- Ubuntu (Usuario final - Desenvolvimento)
+- Red Had (Servidor - Paga)
+- Fedora (Do Red Hat - Gratuito)
+- Suse (Corporativo - Paga)
+
+Modelo Cliente-Servidor

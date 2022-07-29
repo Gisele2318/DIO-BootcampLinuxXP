@@ -1,0 +1,40 @@
+No VirtualBox
+- Armazenamento
+- Controladora Sata
+- Adiciona Disco Rígido
+- Criar
+
+Particiconando e Formatando
+>>fdisk -l -> para verificar o caminho
+>>fdisk /dev/sdb
+>>m
+>>n
+>>p
+>>1
+>>enter
+>>enter
+>>w
+>>mkfs.ext4 /dev/sdb
+
+Montando e Desmontando
+>>mkdir Disco2
+>>mount /dev/sdb /Disco2
+
+>>umont /dev/sdb
+
+Montando automaticamente
+>>lsblk -> para verificar onde está as partições
+>>vi /etc/fstab
+*na última linha digital
+/dev/sdb /Disco2 ext4 defaults 0 0
+>>reboot
+
+Processos
+ps -> mostra os processos do usuário atual
+ps aux
+kill <numerodopid>
+killall <nomedoprocesso>
+w -> mostra quem está logado
+who -a -> mostra o pid de quem está logado
+kill <piddequemestalogado>
+

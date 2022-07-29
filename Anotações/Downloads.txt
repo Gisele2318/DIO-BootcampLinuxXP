@@ -1,0 +1,4 @@
+Download do Ubuntu Server
+https://ubuntu.com/download/server
+Download do VirtualBox
+https://www.virtualbox.org/
